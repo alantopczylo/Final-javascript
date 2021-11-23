@@ -1,0 +1,36 @@
+{
+  "items": [
+    {
+      "sys": { "id": "1" },
+      "fields": {
+        "title": "Tivoli",
+        "price": 4600.00,
+        "image": { "fields": { "file": { "url": "./img/silla1.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "2" },
+      "fields": {
+        "title": "Morrison",
+        "price": 5000.00,
+        "image": { "fields": { "file": { "url": "./img/silla2.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "3" },
+      "fields": {
+        "title": "Cooper",
+        "price": 8000.00,
+        "image": { "fields": { "file": { "url": "./img/silla3.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "4" },
+      "fields": {
+        "title": "Cozy",
+        "price": 12000.00,
+        "image": { "fields": { "file": { "url": "./img/silla4.jpg" } } }
+      }
+    }
+  ]
+}
