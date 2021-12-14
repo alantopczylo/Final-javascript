@@ -10,6 +10,10 @@ const cartTotal = document.querySelector('.cart-total');
 const cartContent = document.querySelector('.cart-content');
 const productsDOM = document.querySelector('.row');
 const transparentBcg = document.querySelector('.background');
+//HAMBURGER
+const menuOverlay = document.querySelector('.menu-overlay');
+const menu = document.querySelector('.cart');
+const closeMenu = document.querySelector('.close-menu');
 
 //main cart
 let cart = [];
@@ -270,12 +274,35 @@ document.addEventListener('DOMContentLoaded', () =>{
 
 
 //DARK MODE
+document.addEventListener('DOMContentLoaded', ()=>{
+    document.getElementById('nav-mode_switch').addEventListener('click', () =>{
+        document.body.classList.toggle('dark');
 
-let modeToggle = document.querySelector('.mode-tog');
-let darkMode = document.querySelector('.dark-mode');
+        localStorage.setItem('theme', 
+        document.body.classList.contains('dark')?'dark':'light'
+        );
+    });
 
-modeToggle.addEventListener('click', () =>{
-    darkMode.classList.toggle('active');
-    modeToggle.classList.toggle('active');
-})
+    if(localStorage.getItem('theme')==='dark'){
+        document.body.classList.add('dark');
+    }
+});
 
+
+
+
+
+
+
+//HAMBURGER MENU
+/*
+window.onload = function () {
+    const menu_btn = document.querySelector('.hamburger');
+    const mobile_menu = document.querySelector('.mobile-nav');
+
+    menu_btn.addEventListener('click', function(){
+        menu_btn.classList.toggle('is-active');
+        mobile_menu.classList.toggle('is-active');
+    });
+}
+*/

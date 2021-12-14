@@ -6,24 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
 
 </head>
-<body>
+<body class="">
     <!--header-->
     <header class="header">
         <div class="container-fluid">
             <div class="line"></div>
             
-            <nav class="nav">
-                
+            <nav class="nav">    
                 <div class="left">
                     <a href="" class="logo">Miyake</a>
+
+                    <button type="button" id="nav-mode_switch">
+                        <i class="fas fa-sun"></i>
+                        <i class="fas fa-moon"></i>
+                    </button>
                     
+                    <!--
                     <div class="mode-tog"></div>
                     <div class="dark-content">
                         <div class="dark-mode"></div>
                     </div>
+                    -->
                 </div>
 
                 <div class="center">
@@ -32,29 +38,25 @@
                             <a href="#shop" class="nav-link active">Shop</a>
                         </li>
                         <li class="nav-item">
-                            <a href="" class="nav-link">Acerca</a>
+                            <a href="#about" class="nav-link">Acerca</a>
                         </li>
                         <li class="nav-item">
-                            <a href="" class="nav-link">Contacto</a>
+                            <a href="#contact" class="nav-link">Contacto</a>
                         </li>   
                     </ul>
+
+                    <!--
+                    <button class="hamburger">
+                        <div class="bar"></div>
+                    </button>  
+                    -->  
                 </div>
                 
                 <div class="right">
-                    <!--
-                    <a href="" class="language">Black</a>
-                    -->
                     <span class="cart-btn cart-prop">Carrito</span>
 
-                    <!--
-                    <span class="cart-btn cart-size">
-                        
-                       <i class="fas fa-shopping-bag"></i>
-                    </span>
-                    -->
-
                     <div class="cart-items cart-btn"></div>  
-                </div>     
+                </div>    
             </nav>
 
             <div class="hero">
@@ -67,6 +69,7 @@
 
                     <div class="hero-right">
                         <div class="content">
+                            <img src="./img/silla1.jpg" alt="">
                         </div>
                     </div>
                 </div>
@@ -74,6 +77,19 @@
         </div>
     </header>
     <!--end header-->
+
+    <!--
+    <div class="hamburger-overlay">
+        <nav class="mobile-nav">
+            <a href="#shop" class="mobile-link">Shop</a>
+            <a href="" class="mobile-link">Acerca</a>
+            <a href="" class="mobile-link">Contacto</a>
+        </nav>
+
+        <div class="backgroundd"></div>
+    </div>
+    -->
+    
 
     <!--products-->
     <section class="shop" id="shop">
@@ -108,6 +124,55 @@
         <div class="background"></div>
     </div>
     <!--end cart-->
+
+    <section class="about" id="about">
+        <div class="container-fluid">
+            <h2 class="about-title">Acerca</h2>
+            <div class="about-flex">
+                <div class="about-left">
+                    <img src="./img/miyake.jpg" alt="" class="about-img">
+                </div>
+
+                <div class="about-right">
+                    <p class="about-info">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo temporibus quaerat iusto harum, blanditiis in voluptatum eligendi mollitia iure inventore saepe dicta excepturi? Architecto rerum, voluptatibus vitae expedita saepe at!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container-fluid">
+
+            <div class="get_in_touch">
+
+                <h3 class="contactanos">¿Tiénes alguna duda? <br> Ponte en contacto!</h3>
+                <div class="contact-form row">
+                    <form action="" class="form">
+                        <div class="form-field col-lg-6">
+                            <input type="text" name="" id="name" class="input-text">
+                            <label for="name" class="label" required>nombre</label>
+                        </div>
+
+                        <div class="form-field col-lg-6">
+                            <input type="email" name="" id="email" class="input-text">
+                            <label for="email" class="label">email</label>
+                        </div>
+
+                        <div class="form-field col-lg-12">
+                            <textarea type="message" name="" id="message" class="input-text" required="required"></textarea>
+                            <label for="message" class="label">mensaje</label>
+                        </div>
+
+                        <div class="form-field col-lg-12">
+                            <input type="submit" value="submit" name="" class="submit-btn" id="submit">
+                        </div>
+
+                        <p class="form-message"></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
 
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
