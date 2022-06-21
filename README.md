@@ -1,6 +1,6 @@
 
 <h1 align="center">Hi 👋. This was my final project for "JavaScript" in Coder House</h1>
-<h3 align="center">A simulation of an E-commerce for an invented brand called "Miyake"</h3>
+<h3 align="center">A simulation of an E-commerce for an invented brand called "Miyake" where you can add products to the cart</h3>
 
 <a href="https://final-javascript-1.vercel.app/"><h3 align="center">⚡ Checkout the project ⚡</h3></a>
 
