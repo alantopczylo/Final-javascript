@@ -2,7 +2,7 @@
 <h1 align="center">Hi 👋. This was my final project for "JavaScript" in Coder House</h1>
 <h3 align="center">Where you can add your tasks and apply some filters so you can search them easily!</h3>
 
-<a href="https://todo-app-indol-seven.vercel.app/"><h3 align="center">⚡ Click me to checkout the project ⚡</h3></a>
+<a href="https://todo-app-indol-seven.vercel.app/" target="__blank"><h3 align="center">⚡ Click me to checkout the project ⚡</h3></a>
 
 <img alt="taskit" src="https://i.postimg.cc/DwGc7Tm0/task-it5.jpg">
 <img alt="taskit" src="https://i.postimg.cc/T12kPHFS/task-it4.jpg">
@@ -16,10 +16,10 @@
 <p align="center">3. Execute npm start to start locally the project. It will open at localhost:3000</p>
 <p align="center">4. Enojoy!</p>
 
-<a href="https://www.educative.io/answers/how-to-clone-a-git-repository-using-the-command-line"><h3 align="center">You don't know how to clone a repository? Just Click Me!</h3></a>
+<a href="https://www.educative.io/answers/how-to-clone-a-git-repository-using-the-command-line" target="__blank"><h3 align="center">You don't know how to clone a repository? Just Click Me!</h3></a>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://linkedin.com/in/alan-topczylo" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="alan-topczylo" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/alan-topczylo" target="__blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="alan-topczylo" height="30" width="40" /></a>
 <a href="https://instagram.com/alantopczylo" target="__blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="alantopczylo" height="30" width="40" /></a>
 </p>
